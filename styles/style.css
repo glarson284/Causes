@@ -1,6 +1,6 @@
 /* Main CSS*/
 body {
-	background: #FFFFF0;
+	background: #440000;
 	font-family: 'Poiret One', cursive;
 }
 
@@ -24,6 +24,7 @@ nav {
 	background: #333333;
 	text-align: center;
 	color: white;
+	border: 1px black solid;
 }
 nav li {
 	display: inline;
@@ -45,15 +46,43 @@ a:hover {
 /* End Main CSS */
 
 /* Home Page CSS */
+.main {
+		color: white;
+}
+
 .main > h1 {
 	margin-top: 410px;
 	text-align: center;
 	font-size: 50px;
+	margin-bottom: 0px;
 }
-.main > p > a{
-	color: white;
+a {
+	color: #CFCFCF;
 	text-decoration: none;
 }
+.main > p > a:hover {
+	text-decoration: underline;
+}
+.main > hr {
+	margin-bottom: 50px;
+	width: 250px;
+}
+.quotes1 > p {
+	width: 250px;
+	float: left;
+	text-align: center;
+	margin: 0px auto 20px auto;
+}
+.quotes2 > p {
+	width: 250px;
+	float: left;
+	text-align: center;
+	margin: 10px auto 50px auto;
+}
+span {
+	font-style: italic;
+}
+
 
 
 
