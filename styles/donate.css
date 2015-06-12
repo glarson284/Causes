@@ -1,0 +1,109 @@
+/* Main CSS*/
+body {
+	background: #FFFFF0;
+	font-family: 'Poiret One', cursive;
+}
+
+header {
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+}
+
+nav {
+	margin-top: 350px;
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #333333;
+	text-align: center;
+	color: white;
+}
+nav li {
+	display: inline;
+	padding: 0px 60px;
+	
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+/* End Main CSS */
+
+/* Home Page CSS */
+.main > h1 {
+	margin-top: 410px;
+	text-align: center;
+	font-size: 50px;
+}
+.main > p > a{
+	color: white;
+	text-decoration: none;
+}
+
+/* Donate Page CSS */
+
+/* Specifies header image for donate page */
+header.donate {
+	background: url("../images/elephant_main5.jpg") no-repeat center;
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+}
+
+#crisis-link > a:link, #crisis-link > a:visited {
+	text-decoration: none;
+	color: #8f0000;;
+}
+
+#crisis-link > a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*Donation List */
+#wrapper {
+	width: 80%;
+}
+
+#call-action {
+	margin-top: 50px;
+	line-height: 1.5em;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.organizations > h2 {
+	padding: .3em;
+	background: #5c5c5c;
+	color: white;
+}
+
+.organizations > a:link, .organizations > a:visited {
+	font-size: 20px;	
+	text-decoration: none;
+	color: #8f0000;
+}
+
+.organizations > a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
