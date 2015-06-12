@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Main CSS Sheet-->
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<script type="text/javascript">
+		function init() {
+		var vidDefer = document.getElementsByTagName('iframe');
+		for (var i=0; i<vidDefer.length; i++) {
+		if(vidDefer[i].getAttribute('data-src')) {
+		vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+		} } }
+		window.onload = init;
+	</script>
+	<title>Save The Elephants</title>
+</head>
+<body class="index">
+	<header>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="donate.html">Donate</a></li>
+			<li><a href="learn.html">Learn More</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<div id="wrapper">
+		<div class="main">
+			<h1>Save The Elephants</h1>
+			<hr>
+			
+			<div class="quotes1">
+				<p>
+					"Elephants that are being slaughtered at the rate of 96 a day in Africa"
+					</br> <span> - Eleanor Randolph, New York Times</span> 
+				</p>
+				
+				<p>
+				"At the current rate, elephants could soon disappear from the wild altogether"
+				</br> <span> - Gabriel Gatehouse, BBC News</span>
+				</p>
+				
+				<p>
+					"Africa's elephants have reached a tipping point: more are being killed each year than are being born"
+					</br> <span> - Rebecca Morelle, BBC News</span> 
+				</p>
+
+			</div>
+			<div id="video">
+				<iframe width="560" height="315" style="text-align:center" src=" " data-src="https://www.youtube.com/embed/B1KhOTsMxeQ" frameborder="0" allowfullscreen>
+				</iframe>
+				<p>
+					To donate to The Elephant Crisis Fund visit our <a href="donate.html">Donations</a> page.
+				</p>
+			</div>
+			
+			<div class="quotes2">
+				
+				<p>
+						"Fewer than 3,000 Sumatran elephants are left in the wild. Environmentalists say they could be extinct within three decades unless they are protected."
+						</br> <span> - Associated Press</span> 
+				</p>
+
+				<p>
+					"Africa is in the midst of an epic elephant slaughter" "poachers are wiping out tens of thousands of elephants a year, more than at any time in the previous two decades"</br> <span> - Jeffrey Gettleman, New York Times</span>
+				</p>
+				
+				<p>
+					"Poachers killed an estimated 100,000 elephants across Africa from 2010 to 2012, a huge spike in the continenta&#769;s death rate of the worlda&#769;s largest mammals"
+					</br> <span>- The Assosiated Press</span>
+				</p>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

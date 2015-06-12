@@ -1,0 +1,162 @@
+/* Main CSS*/
+body {
+	font-family: 'Poiret One', cursive;
+}
+
+.index header {
+	background: url("../images/elephant_main6.jpg") no-repeat center;
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+}
+
+nav {
+	margin-top: 350px;
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #333333;
+	text-align: center;
+	color: white;
+	border: 1px black solid;
+}
+nav li {
+	display: inline;
+	padding: 0px 60px;
+	
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+/* End Main CSS */
+
+/* Home Page CSS */
+body {
+	background-color: #E6E6E6;
+}
+.main {
+		color: black;
+}
+
+.main > h1 {
+	margin-top: 410px;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+#video > p {
+	margin-top: 0px;
+}
+a {
+	color: #CC9999;
+	text-decoration: none;
+}
+.main > hr {
+	margin-bottom: 50px;
+	width: 250px;
+}
+.quotes1 > p {
+	width: 220px;
+	float: left;
+	text-align: center;
+	margin: 0px auto 20px auto;
+	padding: 0 23px;
+}
+.quotes2 > p {
+	width: 220px;
+	float: left;
+	text-align: center;
+	margin: 10px auto 50px auto;
+	padding: 0 23px;
+}
+.index span {
+	font-style: italic;
+}
+
+/* End Home Page */
+
+/* Contact Page */
+
+.contact header {
+	background: url("../images/elephant_main3.jpg") no-repeat center;
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+
+}
+
+.cont > h2 {
+	margin-top: 410px;
+	text-align: center;
+	font-size: 50px;
+}
+.cont > p > span {
+	font-weight: bolder;
+}
+.cont img {
+	width: 300px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.pet_images{
+	float: left;
+	width: 800px;
+	margin-bottom: 0px;
+}
+.pet_images img{
+	height: 200px;
+
+}
+.cont ul {
+	list-style-type: none;
+	width: 800px;
+	padding: 0;
+}
+.cont li {
+	text-align: center;
+}
+#e96 {
+	display: inline-block;
+	width: 300px;
+}
+#ECF {
+	display: inline-block;
+	width: 300px;
+}
+#facebook img {
+	width: 20px;
+}
+#facebook {
+	border-radius: 5px;
+}
+ a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+.contact hr {
+	width: 250px;
+}
+.contact h2 {
+	margin-top: 410px;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+
+
+
