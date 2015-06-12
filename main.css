@@ -1,0 +1,71 @@
+body {
+	background: #FFFFF0;
+	font-family: 'Poiret One', cursive;
+}
+
+.header2 {
+	background: url("./images/elep2.jpg") no-repeat center;
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-size: cover;
+}
+
+nav {
+	margin-top: 350px;
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+	float: left;
+	background: #333333;
+	text-align: center;
+	color: white;
+}
+nav li {
+	display: inline;
+	padding: 0px 60px;
+	
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* End Main CSS */
+
+
+/*******             *******/
+/*******   PAGE 2    *******/
+/*******             *******/
+
+
+.text{
+margin-left: 20%;
+margin-right: 20%;
+	
+}
+
+#title {
+	text-align: center;
+	margin-top: 30%;
+	font-size: 2.4em;
+}
+
+.line {
+	margin-left: 20%;
+	margin-right: 21%;
+}
+
+.crisis {
+
+	text-align: center;
+	margin-top: 3%;
+	font-size: 2.4em;
+}
