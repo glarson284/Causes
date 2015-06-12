@@ -40,6 +40,7 @@ a:hover {
 hr {
 	margin-bottom: 50px;
 	width: 250px;
+	margin-top: 0;
 }
 
 /* End Main CSS */
