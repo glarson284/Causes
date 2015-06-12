@@ -41,6 +41,10 @@ a:hover {
 	margin: 0 auto;
 	text-align: center;
 }
+hr {
+	margin-bottom: 50px;
+	width: 250px;
+}
 /* End Main CSS */
 
 /* Home Page CSS */
@@ -48,6 +52,7 @@ a:hover {
 	margin-top: 410px;
 	text-align: center;
 	font-size: 50px;
+	margin-bottom: 0px
 }
 .main > p > a{
 	color: white;
@@ -93,6 +98,8 @@ header.donate {
 	padding: .3em;
 	background: #5c5c5c;
 	color: white;
+	width: 300px;
+	margin: 0 auto;
 }
 
 .organizations > a:link, .organizations > a:visited {
