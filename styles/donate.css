@@ -99,7 +99,7 @@ header.donate {
 	background: #5c5c5c;
 	color: white;
 	width: 300px;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 
 .organizations > a:link, .organizations > a:visited {
