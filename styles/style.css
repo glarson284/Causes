@@ -147,7 +147,6 @@ a {
 	border-radius: 5px;
 }
  a:hover {
-	font-weight: bold;
 	text-decoration: underline;
 }
 .contact hr {
